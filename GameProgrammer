@@ -1,24 +1,26 @@
 feat: inisialisasi proyek Unity dan membuat struktur folder dasar (Scripts, Prefabs, UI, Scenes)
 feat: membuat PlayerMovement dengan Rigidbody dan logika gerak maju dasar
-fix: penyesuaian gravitasi dan mengatasi masalah model terbalik saat menyentuh tanah
-feat: menambahkan freeze rotation untuk menstabilkan model pemain
+fix: penyesuaian gravitasi dan mengatasi masalah model terbalik saat menyentuh tanah (Success)
+feat: menambahkan freeze rotation untuk menstabilkan model pemain (Success)
 fix: menghilangkan friction antar collider tanpa menghapus deteksi tabrakan
-feat: membuat Collision.cs dan menambahkan variabel isLose untuk kondisi kalah
-feat: memungkinkan akses variabel isLose dari script lain tanpa namespace
-fix: memperbaiki NullReferenceException pada Collision.OnCollisionEnter
-feat: menambahkan sistem skor berdasarkan pergerakan Z pemain
-feat: membuat LevelSelesaiUI dan menghubungkannya dengan Animation Event
-fix: memperbaiki error “AnimationEvent has no function name specified”
-feat: membuat UIHandler dan mengimplementasikan ShowWeaponUI + sistem Pause/Continue
-feat: menambahkan UI senjata Golok dan integrasi buff Golok
+feat: membuat Collision.cs dan menambahkan variabel isLose untuk kondisi kalah 
+feat: memungkinkan akses variabel isLose dari script lain tanpa namespace (Success)
+fix: memperbaiki NullReferenceException pada Collision.OnCollisionEnter (Success)
+feat: menambahkan sistem skor berdasarkan pergerakan Z pemain (Success)
+feat: membuat LevelSelesaiUI dan menghubungkannya dengan Animation Event (Success)
+fix: memperbaiki error “AnimationEvent has no function name specified” (Success)
+feat: membuat UIHandler dan mengimplementasikan ShowWeaponUI + sistem Pause/Continue (Success)
+feat: menambahkan UI senjata Golok dan integrasi buff Golok (Success)
 fix: memperbaiki penggunaan FindObjectOfType untuk UIHandler dan GameSystem
-feat: menambahkan sistem pause 
+feat: menambahkan sistem pause (Success)
 fix: memperbaiki masalah tombol UI yang hilang pada rasio layar tertentu
 fix: memperbaiki tint warna Image yang tidak berfungsi saat menjadi child dari empty object
 feat: mengimplementasikan logika tabrakan pemain-musuh dan kondisi kalah
 fix: menangani masalah tint pada terrain texture dengan metode penyesuaian warna
-feat: membuat level prototipe untuk pengujian gameplay
+feat: membuat level prototipe untuk pengujian gameplay (Success)
 feat: membuat README berisi dokumentasi mekanik inti dan struktur proyek GALANTARA
-refactor: reorganisasi folder Scripts menjadi Gameplay, Managers, UI, Player,dll
-feat: menambahkan UI menu utama dan sistem pergantian scene
-feat: Mekanisme Game sudah dan design level sudah selesai
+refactor: reorganisasi folder Scripts menjadi Gameplay, Managers, UI, Player,dll (Success)
+feat: menambahkan UI menu utama dan sistem pergantian scene (Success)
+feat: Mekanisme Game sudah dan design level sudah selesai (Success)
+fix: Membenarkan sebagian besar bug animasi ui dan sound (Success)
+feat: menambahkan status system save level (Bugged)
