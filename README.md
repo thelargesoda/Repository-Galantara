@@ -1,5 +1,47 @@
 GALANTARA 
 
+Dibuat oleh 
+Andhika Pandya Wijaya       	- Game Programer
+Miftahul Zanah 	             - Project Manager
+Lula Neya Kamila 		(2409085)	- Game Designer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 In Game asset
 Assets/
  ├─ Animation               -> Berisi animasi karakter dan objek.
@@ -14,7 +56,9 @@ Assets/
  ├─ UI                     -> Prefab UI seperti panel, menu, button, dll.
  └─ Unity Pack             -> Asset pack dari Unity Store.
 
-Base class script:
+
+
+Base class script information:
 
 PlayerMovement
 Mengatur gerakan dasar player: maju otomatis, kiri/kanan, lompat, dan stop saat game over.
