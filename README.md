@@ -7,41 +7,6 @@ Lula Neya Kamila 		(2409085)	- Game Designer
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 In Game asset
 Assets/
  ├─ Animation               -> Berisi animasi karakter dan objek.
